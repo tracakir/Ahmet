@@ -474,3 +474,59 @@ for (let i = 0; i < len; i++) {
 // firma == "Netscape" ? alert("Doğru!") : alert("Yanlış.");
 
 // LIKE TEST
+// let valueElement = document.getElementById("nft-like");
+// let toggleButton = document.getElementById("toggleButton");
+// let value = 100;
+// let increasingMod = true;
+// toggleButton.addEventListener("click", function () {
+//   if (increasingMod) {
+//     value++;
+//   } else {
+//     value--;
+//   }
+//   valueElement.textContent = value;
+//   increasingMod = !increasingMod;
+// });
+// JS ALGORİTMA SORULARI
+/* let sicaklikDeğeri = prompt("Sıcaklık Değerini Giriniz !");
+sicaklikDeğeri = parseInt(sicaklikDeğeri);
+
+if (sicaklikDeğeri <= 0) {
+  alert("KATI");
+} else if (sicaklikDeğeri > 0 && sicaklikDeğeri < 100) {
+  alert("SIVI");
+} else {
+  alert("GAZ");
+}
+console.log(sicaklikDeğeri);
+*/
+// let x = prompt("Bir sayı giriniz");
+// if ((x = "")) {
+//   alert("Herhangi bir sayı girmedin !");
+//   return;
+// }
+// x = parseInt(x);
+// if (x % 2 == 0) {
+//   alert("Sayı çifttir");
+// } else {
+//   alert("sayı tektir");
+// }
+
+// let asaldizisi = [];
+// for (i = 2; i < 100; i++) {
+//   let flag = true;
+//   for (j = 2; j <= i/2; j++) {
+//     if (i % j == 0) {
+//       flag = false;
+//     }
+//   }
+//   if (flag) {
+//     asaldizisi.push(i);
+//   }
+// }
+// console.log(asaldizisi);
+
+const sayi1 = parseInt(prompt("1.Sayıyı Girin"));
+const sayi2 = parseInt(prompt("2.Sayıyı Girin"));
+
+console.log(typeof sayi1);
